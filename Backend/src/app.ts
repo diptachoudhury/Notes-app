@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173', // Your frontend development server
-    'https://notes-app-rho-topaz.vercel.app/'   
+    'https://notes-app-rho-topaz.vercel.app'   
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   allowedHeaders: ['Content-Type', 'Authorization'], 
